@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "NODE_ENV=production node server.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "config": {
     "babel": {
@@ -24,6 +26,8 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-markdown": "^4.0.8",
-    "styled-jsx": "^3.2.1"
-  }
+    "styled-jsx": "^3.2.1",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
