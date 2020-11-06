@@ -23,7 +23,7 @@
     "next": "^9.0.6",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-markdown": "^4.0.8",
+    "react-markdown": "^5.0.0",
     "styled-jsx": "^3.2.1"
   }
 }
